@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #333;
     background-color: #f5f5f5;
 }
@@ -88,7 +88,7 @@ body {
 }
 .about h2 {
     font-size: 2.5em;
-    color: #3498db;
+    color: #000000;
     margin-bottom: 20px;
 }
 .about p {
@@ -104,7 +104,7 @@ body {
 }
 .projects h2 {
     font-size: 2.5em;
-    color: #3498db;
+    color: #000000;
     margin-bottom: 40px;
 }
 .project-list {
@@ -147,7 +147,7 @@ body {
 }
 .contact h2 {
     font-size: 2.5em;
-    color: #3498db;
+    color: #ffffff;
 }
 .icons a {
     font-size: 2em;
@@ -174,11 +174,6 @@ footer {
     to { opacity: 1; }
 }
 
-/* Import Raleway font for use throughout the portfolio */
-body, h1, h2, h3, p {
-    font-family: 'Raleway', sans-serif;
-}
-
 /* Skills Section Styling */
 .skills {
     background-color: #f9f9f9;
@@ -190,7 +185,7 @@ body, h1, h2, h3, p {
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #3498db;
+    color: #000000;
 }
 
 .skills-container {
@@ -239,4 +234,42 @@ body, h1, h2, h3, p {
 
 .icons .icon:hover {
     color: #0073b1;  
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #3498db; /* change to your preferred color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9; 
+}
+
+.button-section {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.button-section .cta,   
+.button-section .button {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    border: none;
+    cursor: pointer; 
+}
+
+.button-section .cta:hover,
+.button-section .button:hover {
+    background-color: #333; 
 }
